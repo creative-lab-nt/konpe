@@ -1,0 +1,6 @@
+﻿node_modules/
+client-spec/
+assets/raw/
+data/
+.DS_Store
+
