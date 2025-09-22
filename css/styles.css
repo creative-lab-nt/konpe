@@ -45,6 +45,17 @@ body{ margin:0; font-family:ui-sans-serif, Segoe UI, Roboto, Noto Sans JP, Helve
 .hero__badge{ margin-top:12px }
 .hero__badge img{ width:72px; height:auto; display:block; filter:none }
 
+/* Split layout for NOW – [logo] – Millionaire */
+.hero__title--split{ position:relative; justify-content:space-between; gap:0; text-align:left }
+.hero__title--split .kw--left{ margin-right:auto }
+.hero__title--split .kw--right{ margin-left:auto }
+.hero__title--split .kw--logo{ position:absolute; left:50%; transform:translateX(-50%); margin:0 }
+@media (max-width: 560px){
+  .hero__title--split{ justify-content:center; gap:12px; text-align:center }
+  .hero__title--split .kw--logo{ position:static; transform:none; margin-inline:12px }
+  .hero__title--split .kw--left,.hero__title--split .kw--right{ margin:0 }
+}
+
 /* Sections */
 .section{ padding:64px 0 }
 .section__title{ font-size: clamp(26px, 2.8vw + 10px, 40px); margin:0 0 24px; letter-spacing:.02em; position:relative; color:#E8ECF7; text-align:center }
