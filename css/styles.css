@@ -20,15 +20,20 @@ body{ margin:0; font-family:ui-sans-serif, Segoe UI, Roboto, Noto Sans JP, Helve
 .btn--line{ background:transparent; color:var(--gold); border-color:var(--gold) }
 
 /* Hero (Editorial) */
-.hero--editorial{ position:relative; padding:96px 0 64px; overflow:hidden }
+.hero--editorial{ position:relative; padding:96px 0 64px; overflow:hidden; background: linear-gradient(180deg, rgba(10,13,19,.88), rgba(10,13,19,.7)), url('../images/CryptoNova_back.png') center/cover no-repeat }
 .rule--v{ position:absolute; left:8px; top:-40px; bottom:-40px; width:1px; background:linear-gradient(var(--gold), transparent 70%) }
-.hero__title{ font-family: ui-serif, "Yu Mincho", "Hiragino Mincho ProN", serif; font-size: clamp(28px, 4vw + 10px, 48px); line-height:1.2; margin:0 0 12px; display:flex; align-items:center; gap:12px; flex-wrap:wrap }
+.hero__title{ font-family: ui-serif, "Yu Mincho", "Hiragino Mincho ProN", serif; font-size: clamp(28px, 4vw + 10px, 48px); line-height:1.2; margin:0 0 12px; display:flex; align-items:center; justify-content:center; gap:12px; flex-wrap:wrap; text-align:center }
 .hero__line{ flex:0 0 100%; height:0; border-bottom:1px dashed rgba(205,163,73,.6); order:0 }
 .kw{ display:inline-flex; align-items:center; justify-content:center; padding:6px 10px; border:1px solid rgba(205,163,73,.85); border-radius:8px; background:rgba(255,255,255,.06); color:#f3f4f6; font-weight:700; letter-spacing:.02em }
 .kw--center{ margin-inline:6px }
-.hero__tag{ color:var(--mut); margin:0 0 16px; font-size:14px }
+.kw--logo{ padding:0; border:none; background:transparent }
+.kw--logo img{ display:block; width:clamp(56px, 10vw, 96px); height:auto; filter:none }
+.hero__tag{ color:var(--mut); margin:0 0 16px; font-size:14px; text-align:center }
+.hero__content{ text-align:center }
 .hero__ctas{ display:flex; gap:10px; flex-wrap:wrap; margin-bottom:8px }
 .hero__note{ color:var(--mut); font-size:12px }
+.hero__badge{ margin-top:12px }
+.hero__badge img{ width:72px; height:auto; display:block; filter:none }
 
 /* Sections */
 .section{ padding:64px 0 }
