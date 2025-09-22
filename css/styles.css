@@ -70,9 +70,9 @@ body{ margin:0; font-family:ui-sans-serif, Segoe UI, Roboto, Noto Sans JP, Helve
 .step__desc{ margin:0; color:var(--mut) }
 @media (max-width: 960px) { .steps{ grid-template-columns:1fr } }
 
-.how__cta{ margin-top:16px; display:flex; gap:10px; flex-wrap:wrap }
+.how__cta{ margin-top:16px; display:flex; gap:10px; flex-wrap:wrap; justify-content:center }
 
-.section--contact{ background: linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.02)); border-top:1px solid rgba(205,163,73,.18); border-bottom:1px solid rgba(205,163,73,.18) }
+.section--contact{ background: linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.02)); border-top:1px solid rgba(205,163,73,.18); border-bottom:1px solid rgba(205,163,73,.18); text-align:center }
 
 .risk{ color:var(--mut) }
 .risk p{ margin:0 0 10px }
